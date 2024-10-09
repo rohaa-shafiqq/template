@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7921e;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #000;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-header h1 {
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.food-menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #f7921e;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-items-left {
+    width: 60%;
+}
+
+.menu-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f7921e;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list li {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+.menu-list li:last-child {
+    border-bottom: none;
+}
+
+.menu-list .price {
+    font-weight: bold;
+    color: #f7921e;
+}
+
+.menu-image {
+    width: 35%;
+}
+
+.menu-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <header class="menu-header">
+            <div class="logo">CANTEEN</div>
+            <h1>Price List</h1>
+        </header>
+        
+        <section class="food-menu">
+            <h2>Food Menu</h2>
+            
+            <div class="menu-section">
+                <div class="menu-items-left">
+                    <h3>Snacks</h3>
+                    <ul class="menu-list">
+                        <li>Aloo Samosa<span class="price">Rs 40</span></li>
+                        <li>Roll<span class="price">Rs 50</span></li>
+                        <li>BBQ Roll<span class="price">Rs 130</span></li>
+                        <li>Mint Roll<span class="price">Rs 70</span></li>
+                        <li>Chicken Box Paties<span class="price">Rs 80</span></li>
+                        <li>Aloo Paties<span class="price">Rs 40</span></li>
+                        <li>Chicken Paties<span class="price">Rs 70</span></li>
+                        <li>Chicken Boti Sandwich<span class="price">Rs 130</span></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-image">
+                    <img src="samosa.jpg" alt="Item 1">
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <div class="menu-items-left">
+                    <h3>Burgers & Fries</h3>
+                    <ul class="menu-list">
+                        <li>Fries<span class="price">Rs 50</span></li>
+                        <li>Zinger Burger<span class="price">Rs 230</span></li>
+                        <li>Chicken Burger<span class="price">Rs 180</span></li>
+                        <li>Nuggets (4pcs)<span class="price">Rs 200</span></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-image">
+                    <img src="samosa2.jpg" alt="Item 2">
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <div class="menu-items-left">
+                    <h3>Pizza & Pasta</h3>
+                    <ul class="menu-list">
+                        <li>Chowmein<span class="price">Rs 150</span></li>
+                        <li>Pasta<span class="price">Rs 150</span></li>
+                        <li>Mini Pizza<span class="price">Rs 70</span></li>
+                        <li>Bread Pizza<span class="price">Rs 150</span></li>
+                        <li>Bread Pizza<span class="price">Rs 120</span></li>
+                    </ul>
+                </div>
+                
+                <div class="menu-image">
+                    <img src="samosa3.jpg" alt="Item 3">
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <div class="menu-items-left">
+                    <h3>Beverages</h3>
+                    <ul class="menu-list">
+                        <li>Tea<span class="price">Rs 70</span></li>
+                        <li>Water (500ml)<span class="price">Rs 70</span></li>
+                        <li>Coldrink (70ml)<span class="price">Rs 80</span></li>
+                        <li>Juice<span class="price">Rs 70</span></li>
+                        
+                    </ul>
+                </div>
+                <div class="menu-image">
+                    <img src="tea.jpg" alt="Item 3">
+                </div>
+            </di
+            </div>
+        </section>
+    </div>
+</body>
+</html>
